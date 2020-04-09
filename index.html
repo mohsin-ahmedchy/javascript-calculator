@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="main">
+        <h2>Calculator:</h2>
+        <p id="solve">
+            num1:&nbsp;<input type="number" id="num1" placeholder="enter num1">
+            <br>
+            <br>
+            num2:&nbsp;<input type="number" id="num2" placeholder="enter num2">
+            <br>
+            <br>
+            <select id="option">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+            </select>&nbsp;&nbsp;&nbsp;
+            <input type="button" value="=" onclick="calcu()">
+            <br>
+            <br>
+            Answer:&nbsp;<input type="number" id="result">
+            <br>
+        </p>
+        
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
